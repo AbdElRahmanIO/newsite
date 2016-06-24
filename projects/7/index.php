@@ -17,14 +17,14 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="aboutushead">
-							<h1>من نحن</h1>
+							<a href="about.php"><h1>من نحن</h1></a>
 						</div><!-- aboutushead -->
 					</div><!-- col-xs-12 -->
 					<div class="col-xs-12">
 						<div class="aboutuscont">
 							<a href=""><h2>شاليهات لدين</h2></a>
 							<p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم</p>
-							<span><a href="">المزيد</a></span>
+							<span><a href="about.php">المزيد</a></span>
 						</div><!-- aboutuscont -->
 					</div><!-- col-xs-12 -->
 				</div><!-- row -->
@@ -32,7 +32,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="followhead">
-							<h1>تواصل معنا</h1>
+							<a href="contact.php"><h1>تواصل معنا</h1></a>
 						</div><!-- followhead -->
 					</div><!-- col-xs-12 -->
 					<div class="col-xs-12">
@@ -54,7 +54,7 @@
 						<div class="followmore">
 							<div class="row">
 								<div class="col-xs-12">
-									<span><a href="">المزيد</a></span>
+									<span><a href="contact.php">المزيد</a></span>
 								</div><!-- col-xs-12 -->
 							</div><!-- row -->
 						</div><!-- followmore -->
@@ -78,14 +78,14 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="orderhead">
-							<h1>إحجز الآن</h1>
+							<a href="order.php"><h1>إحجز الآن</h1></a>
 						</div><!-- orderhead -->
 					</div><!-- col-xs-12 -->
 					<div class="col-xs-12">
 						<div class="ordercont">
 							<a href=""><h2>طلب جديد</h2></a>
 							<p>هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم</p>
-							<span><a href="">المزيد</a></span>
+							<span><a href="order.php">المزيد</a></span>
 						</div><!-- ordercont -->
 					</div><!-- col-xs-12 -->
 				</div><!-- row -->
@@ -93,14 +93,14 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="catshead">
-							<h1>أنواعنا</h1>
+							<a href="view.php"><h1>أنواعنا</h1></a>
 						</div><!-- catshead -->
 					</div><!-- col-xs-12 -->
 					<div class="col-xs-12">
 						<div class="catscont">
-							<a href=""><h2>النوع الأول</h2></a>
-							<a href=""><h2>النوع الثاني</h2></a>
-							<a href=""><h2>النوع الثالث</h2></a>
+							<a href="view.php"><h2>النوع الأول</h2></a>
+							<a href="view.php"><h2>النوع الثاني</h2></a>
+							<a href="view.php"><h2>النوع الثالث</h2></a>
 						</div><!-- catscont -->
 					</div><!-- col-xs-12 -->
 				</div><!-- row -->

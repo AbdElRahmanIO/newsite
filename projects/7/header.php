@@ -37,7 +37,7 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="logo">
-          <a href=""><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+          <a href="index.php"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
         </div><!-- logo -->
       </div><!-- col-xs-12 -->
     </div><!-- row -->
