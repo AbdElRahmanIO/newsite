@@ -61,6 +61,7 @@ a, a:hover, a:focus {
     outline: 0;
     margin: 0;
     font-size: 16px;
+    cursor: pointer;
 }
 .searchsocial ul {
     float: left;
@@ -125,15 +126,16 @@ a, a:hover, a:focus {
     background-color: transparent;
     text-shadow: none;
 }
-.dropdown-menu {
+.navbar-default .navbar-nav .open .dropdown-menu {
     background-color: #076267;
     margin-top: -1px!important;
 }
-.dropdown-menu>li>a {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
     background-color: #076267;
     color: white;
 }
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
     background-color: #029E90;
     background-image: none;
     color: white;
