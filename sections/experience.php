@@ -13,7 +13,7 @@
 	<li>
 		<div class="details">
 			<h3>Al-yasser Group</h3>
-			<h4>Front-End Developer - Cairo, Egypt</h4>
+			<h4>UI/UX Developer - Cairo, Egypt</h4>
 			<h5>Oct 2015 - Present</h5>
 		</div>
 		<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut justo nibh, mattis sit amet consequat a, varius vitae metus. Proin pharetra sodales pellentesque.</p> -->
