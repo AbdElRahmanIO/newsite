@@ -1,0 +1,462 @@
+/*
+    BY: Alyasser Group;
+*/
+
+/* font */
+@font-face{font-family:'DroidKufi-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'DroidKufi-Regular'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* font */
+
+
+body {
+    font-family: 'DroidKufi-Regular';
+    font-size: 12px;
+    background-color: white;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+
+/*
+	topbar
+*/
+
+.topbar {
+	text-align: left;
+	background-color: #ebebeb;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.topbar a {
+	color: #6f6f6f;
+	font-size: 13px;
+	padding-right: 15px;
+}
+.topbar i {
+	color: #bc0a7c;
+	font-size: 13px;
+}
+.btnbar {
+	background-color: white;
+}
+
+/*
+	topbar
+*/
+
+
+/*
+	btnbar
+*/
+
+.btnbar .navbar {
+	margin-bottom: 0;
+}
+.btnbar.navbar-default {
+	background-color: white;
+	border-color: transparent;
+	background-image: none;
+	border: 0;
+	box-shadow: none;
+}
+.btnbar.navbar-brand {
+	padding: 0;
+	margin: 0;
+}
+.btnbar .navbar-nav {
+	text-align: center;
+}
+.btnbar.navbar-default .navbar-nav>.active>a,
+.btnbar.navbar-default .navbar-nav>.active>a:focus,
+.btnbar.navbar-default .navbar-nav>.active>a:hover {
+	background-image: none;
+	background-color: white;
+	color: #283298;
+	box-shadow: none;
+}
+.btnbar.navbar-default .navbar-nav>.active>a i {
+	font-size: 16px;
+}
+.btnbar.navbar-default .navbar-nav>li>a {
+	color: #171717;
+	font-size: 14px;
+}
+.btnbar.navbar-default .navbar-nav>li>a:hover, .btnbar.navbar-default .navbar-nav>li>a:focus {
+	background-color: white;
+	color: #283298;
+}
+.btnbar.navbar-default .navbar-nav>.open>a,
+.btnbar.navbar-default .navbar-nav>.open>a:focus,
+.btnbar.navbar-default .navbar-nav>.open>a:hover {
+	background-image: none;
+	background-color: white;
+	color: #283298;
+	box-shadow: none;
+}
+.btnbar .dropdown-menu {
+	box-shadow: none;
+	border-top: 0;
+}
+.btnbar .navbar-toggle {
+    margin-top: 35px;
+}
+.btnbar.navbar-default .navbar-collapse, .btnbar .navbar-default .navbar-form {
+	border-color: transparent;
+}
+.navbar-collapse {
+	padding: 0;
+}
+.btnbar .collapse.navbar-collapse {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.btnbar .dropdown-menu>li>a {
+	background-color: #bc0a7c;
+	color: white;
+}
+.btnbar .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: white;
+	color: #283298;
+}
+
+/*
+	btnbar
+*/
+
+
+/*
+	slidershow
+*/
+
+.slidershow .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	width: 100%;
+}
+.slidershow .carousel-control.right,
+.slidershow .carousel-control.left {
+	opacity: 1;
+	background-image: none;
+}
+.slidershow .carousel-control.right span,
+.slidershow .carousel-control.left span {
+	text-shadow: none;
+	font-size: 30px;
+	background-color: #cf71ad;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+    padding: 10px;
+}
+.slidershow .item .carousel-caption {
+	width: 100%;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	top: 25%;
+}
+.slidershow .item .carousel-caption h1 {
+	font-size: 50px;
+	color: #332a61;
+	font-weight: bold;
+	text-shadow: none;
+}
+.slidershow .item .carousel-caption h2 {
+	font-size: 22px;
+	color: #aa0d77;
+	font-weight: bold;
+	text-shadow: none;
+	margin-top: 30px;
+}
+.slidershow .item .carousel-caption button {
+	font-size: 15px;
+	color: #6b6878;
+	background-color: #ebebeb;
+	border: 0;
+	padding: 12px 40px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.slidershow .carousel-indicators {
+	bottom: 5px;
+}
+.slidershow .carousel-indicators li {
+	background: #ffffff;
+	height: 15px;
+	width: 15px;
+	margin: 0;
+}
+.slidershow .carousel-indicators .active {
+	background: #bc0a7c;
+}
+
+/*
+	slidershow
+*/
+
+
+/*
+	welcome
+*/
+
+.welcome {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.welcometext {
+
+}
+.welcometext h3 {
+	color: #c1097c;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 180px;
+}
+.aboutus p {
+	font-size: 13px;
+	font-weight: bold;
+	color: #535353;
+	line-height: 27px;
+}
+
+/*
+	welcome
+*/
+
+.offersandlisn {
+	padding-bottom: 55px;
+}
+
+/*
+	latestoffers
+*/
+
+.offerslider .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	width: 100%;
+}
+.offerslider .carousel-control.right,
+.offerslider .carousel-control.left {
+    opacity: 1;
+    background-image: none;
+}
+.offerslider .carousel-control.right span,
+.offerslider .carousel-control.left span {
+    text-shadow: none;
+    font-size: 30px;
+    background-color: #bc0a7c;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+}
+.offerslider .carousel-control.right span:hover,
+.offerslider .carousel-control.left span:hover {
+    background-color: #8c8f90;
+}
+.offerslider .carousel-control {
+/*	width: 0;*/
+}
+.latoff {
+	position: absolute;
+	top: 0;
+	left: 5%;
+	background-color: #bc0a7c;
+	height: auto;
+	width: auto;
+	padding: 35px 18px;
+	font-size: 18px;
+	color: white;
+}
+
+/*
+	latestoffers
+*/
+
+
+
+/*
+	moread
+*/
+
+.moread {
+	padding-top: 25px;
+}
+.moread img {
+	width: 100%;
+}
+
+/*
+	moread
+*/
+
+
+
+
+/*
+	tablisten
+*/
+
+.tablisten {
+	background-color: #ecf0f1;
+	padding: 10px;
+    min-height: 569px;
+}
+.tablisten ul {
+	text-align: center;
+}
+.tablisten ul li {
+	float: none;
+	display: inline-block;
+	text-align: center;
+}
+.tablisten ul li a,
+.tablisten .nav-tabs>li.active>a,
+.tablisten .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	color: #bc0a7c;
+	font-size: 22px;
+}
+.rowlistn {
+	padding: 10px;
+	font-size: 15px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eff3f4 99%);
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eff3f4 99%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#eff3f4 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eff3f4',GradientType=0 );
+}
+.rowlistn span {
+	color: #575757;
+}
+.rowlistn span i {
+	color: #bc0a7c;
+}
+.rowlistn span a {
+	color: #575757;
+}
+.rowlistn a {
+	color: #bc0a7c;
+}
+
+/*
+	tablisten
+*/
+
+
+/*
+	aboutcontact
+*/
+
+.aboutcontact {
+	padding-bottom: 95px;
+}
+.contactus {
+	background-color: #eff3f4;
+	padding: 20px 20px 40px 20px;
+	min-height: 284px;
+}
+.contactus h1 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #c1097c;
+    margin: 0;
+}
+.contactus ul li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+.contactus ul li a {
+	text-align: center;
+	color: #545a5f;
+	font-size: 13px;
+}
+.contactus ul li a i {
+	height: 35px;
+	width: 35px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: white;
+	background-color: #bc0a7c;
+	border-radius: 50%;
+    padding-top: 10px;
+}
+.vedioabout iframe {
+	width: 100%;
+	min-height: 284px;
+}
+
+/*
+	aboutcontact
+*/
+
+
+/*
+	footer
+*/
+
+#footer {
+	background-color: #f2f4f8;
+	padding-top: 25px;
+}
+.cats {
+	padding-bottom: 35px;
+}
+.cats h1 {
+	font-size: 15px;
+	color: #545a5f;
+	margin-bottom: 30px;
+}
+.cats ul li {
+	display: inline-block;
+	width: 20%;
+    padding-bottom: 10px;
+}
+.cats ul li a {
+	font-size: 12px;
+	color: #545a5f;
+}
+.cats ul li a i {
+	font-size: 18px;
+	color: #545a5f;
+}
+.social {
+	text-align: center;
+    padding-top: 63px;
+}
+.social a {
+	padding: 10px;
+}
+.social a i {
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	color: white;
+	background-color: #bc0a7c;
+	border-radius: 50%;
+    padding-top: 8px;
+}
+.downfooter {
+	background-color: #e5e8ee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.copyrights {
+	text-align: right;
+    padding-top: 8px;
+}
+.copyrights a {
+	font-size: 12px;
+	color: #545a5f;
+}
+.developedby {
+	text-align: left;
+}
+.developedby img {
+	float: left;
+}
+
+/*
+	footer
+*/
