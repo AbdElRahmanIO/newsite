@@ -22,6 +22,18 @@
 	<li>
 		<div class="col-sm-4 col-xs-6">
 			<div class="projitem">
+				<a href="projects/21/" target="_blank">
+				<div class="projitemhover">
+					<i class="fa fa-eye" aria-hidden="true"></i>
+				</div><!-- projitemhover -->
+				<img src="images/portfolio/21small.png" alt="project image" class="img-responsive">
+				</a>
+			</div><!-- projitem -->
+		</div><!-- col-sm-4 col-xs-6 -->
+	</li>
+	<li>
+		<div class="col-sm-4 col-xs-6">
+			<div class="projitem">
 				<a href="projects/17/" target="_blank">
 				<div class="projitemhover">
 					<i class="fa fa-eye" aria-hidden="true"></i>
