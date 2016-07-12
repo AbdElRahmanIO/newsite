@@ -12,6 +12,15 @@
 	.welcometext h3 {
 		font-size: 19px;
 	}
+	.ordercontent form {
+	    padding: 0 200px;
+	}
+	.respasscontent form {
+		padding: 0 250px;
+	}
+	.respasssubmit button {
+		min-width: 435px;
+	}
 }
 
 
@@ -44,6 +53,31 @@
 	.cats ul li {
 		display: inline-block;
 		width: 30%;
+	}
+	.ordercontent form {
+	    padding: 0 20px;
+	}
+	.topichead h2 {
+		line-height: 30px;
+	}
+	.topichead {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.topicdata {
+		text-align: center;
+	}
+	.topicdata span {
+		padding: 20px;
+	}
+	.topiccont {
+		text-align: center;
+	}
+	.respasscontent form {
+		padding: 0 150px;
+	}
+	.respasssubmit button {
+		min-width: 412px;
 	}
 }
 
@@ -132,5 +166,32 @@
 	.developedby img {
 		float: none;
 		margin: auto;
+	}
+	.regcontent {
+		text-align: center;
+	}
+	.ordercontent form {
+	    padding: 0 20px;
+	}
+	.respasshead h1 {
+		font-size: 21px;
+		line-height: 35px;
+	}
+	.respasscontent form {
+		padding: 0 0;
+	    text-align: center;
+	}
+	.respasssubmit button {
+		min-width: 300px;
+	}
+	.dropdownlogin {
+		width: 100%;
+		left: 0;
+	}
+	.toparrow {
+		text-align: center;
+	}
+	.toparrow i {
+		padding-left: 50px;
 	}
 }

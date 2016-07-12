@@ -32,12 +32,65 @@
 
 <header id="main">
 
+
+
+
+
+
+
+
+
 <div class="container-fluid topbar">
   <div class="container">
+
+    <div class="dropdownlogin">
+      <div class="toparrow col-xs-12">
+        <i class="fa fa-caret-up" aria-hidden="true"></i>
+      </div><!-- toparrow col-xs-12 -->
+      <div class="dropdownloginhead col-xs-12">
+        <h4>تسجيل الدخول</h4>
+      </div><!-- dropdownloginhead col-xs-12 -->
+      <div class="form-group col-xs-12">
+        <input type="text" class="form-control" placeholder="اسم المستخدم">
+      </div><!-- form-group col-sm-12 -->
+      <div class="form-group col-xs-12">
+        <input type="password" class="form-control" placeholder="كلمة المرور">
+      </div><!-- form-group col-sm-12 -->
+      <div class="col-xs-6">
+        <ul class="list-unstyled">
+          <li>
+            <input type="checkbox" id="opti10" name="selector">
+            <label for="opti10">تذكرني</label>
+            <div class="check"></div>
+          </li>
+        </ul>
+      </div><!-- col-sm-6 -->
+      <div class="col-sm-6">
+        <div class="dropdownloginbtn">
+          <button type="submit">دخول</button>
+        </div><!-- dropdownloginbtn -->
+      </div><!-- col-sm-6 -->
+    </div><!-- dropdownlogin row -->
+
+    <div class="dropdownmenu">
+      <div class="toparrow col-xs-12">
+        <i class="fa fa-caret-up" aria-hidden="true"></i>
+      </div><!-- toparrow col-xs-12 -->
+      <div class="col-xs-12 menuofdropdown">
+        <ul class="list-unstyled">
+          <li><a href="">تعديل الملف الشخصي</a></li>
+          <li><a href="">ارسال رسالة للادارة</a></li>
+          <li><a href="">معاينة ملفي الشخصي</a></li>
+          <li><a href="">تسجيل الخروج</a></li>
+        </ul>
+      </div><!-- col-xs-12 menuofdropdown -->
+    </div><!-- dropdownmenu row -->
+
     <div class="row">
       <div class="col-xs-12">
         <div class="log">
-          <a href=""><i class="fa fa-sign-out" aria-hidden="true"></i> دخول</a>
+          <a class="login"><i class="fa fa-sign-out" aria-hidden="true"></i> دخول</a>
+          <a class="afterlogin"><i class="fa fa-user" aria-hidden="true"></i> عبدالرحمن</a>
           <a href=""><i class="fa fa-user-plus" aria-hidden="true"></i> تسجيل</a>
         </div><!-- log -->
       </div><!-- col-xs-12 -->
@@ -86,6 +139,61 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav><!-- navbar -->
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div id="carousel-example-generic" class="carousel slide slidershow" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/slide1.png" alt="slide" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>ميز ليالي العمر</h1>
+            <h2>بزفات خاصة تلحن وتوزع لك خصيصا</h2>
+            <button>التفاصيل</button>
+          </div>
+        </div><!-- item -->
+        <div class="item">
+          <img src="img/slide1.png" alt="slide" class="img-responsive">
+          <div class="carousel-caption">
+            <h1>ميز ليالي العمر</h1>
+            <h2>بزفات خاصة تلحن وتوزع لك خصيصا</h2>
+            <button>التفاصيل</button>
+          </div><!-- carousel-caption -->
+        </div><!-- item -->
+      </div><!-- carousel-inner -->
+
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- slide -->
+  </div><!-- row -->
+</div><!-- container-fluid -->
+
+
+
+
+
+
+
 
 
 </header><!-- #main -->

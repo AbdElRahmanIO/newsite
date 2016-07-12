@@ -53,5 +53,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+
+    		$(".login").click(function(){
+    			$(".dropdownlogin").toggle();
+    		});
+
+    		$(".afterlogin").click(function(){
+    			$(".dropdownmenu").toggle();
+    		});
+
+			if ( $("#collapse1").hasClass("in") || $("#collapse2").hasClass("in") || $("#collapse3").hasClass("in") || $("#collapse4").hasClass("in") || $("#collapse5").hasClass("in") ) {
+
+    			$("h4.panel-title a i").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+
+    		}else{
+
+    			$("h4.panel-title a i").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+
+    		}
+
+    		$("h4.panel-title").click(function(){
+    			if ( $("#collapse1").hasClass("in") || $("#collapse2").hasClass("in") || $("#collapse3").hasClass("in") || $("#collapse4").hasClass("in") || $("#collapse5").hasClass("in") ) {
+
+    				$("h4.panel-title a i").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+
+	    		}else{
+
+	    			$("h4.panel-title a i").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+
+	    		}
+    		})
+
+    	});
+    </script>
   </body>
 </html>
