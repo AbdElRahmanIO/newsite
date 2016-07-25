@@ -22,6 +22,7 @@ body {
 .navbar {
     margin-bottom: 0;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 .navbar-default {
     background-color: white;
@@ -44,12 +45,12 @@ body {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color: #c32020;
+    color: #c32020;
     background-image: none;
+    background-color: transparent;
 }
 .gamalsocial {
-    margin-top: 5px;
+    padding: 12px 0;
 }
 .gamalsocial li {
     display: inline-block;
@@ -86,7 +87,11 @@ body {
 .headtop {
     background-image: url('../img/headimg.jpg');
     background-origin: content-box;
+    background-repeat: no-repeat;
+    background-color: #E9E5E4;
     min-height: 578px;
+    background-position: -90px;
+    margin-top: 76px;
 }
 .headtopindex {
     text-align: center;
@@ -167,7 +172,7 @@ body {
     margin: auto;
 }
 .img-slider .item img {
-    min-height: 300px;
+    height: 300px;
 }
 .img-slider h3 {
     text-align: center;
@@ -210,7 +215,7 @@ body {
 */
 
 .news {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .newshead h1 {
@@ -232,7 +237,7 @@ body {
 }
 .newsslider .carousel .item img {
     margin-top: 10px;
-    min-height: 321px;
+    height: 321px;
     width: 100%;
 }
 a.chann {
@@ -282,7 +287,7 @@ a.chann {
 }
 .newsslider .carousel-indicators li img {
     width: 100%;
-    min-height: 101px;
+    height: 101px;
 }
 .newsslider .carousel-indicators li h6 {
     font-size: 11px;
@@ -309,6 +314,8 @@ a.chann {
 .catdesc p {
     line-height: 26px;
     font-size: 16px;
+    text-align: right;
+    text-align: justify;
 }
 .catdesc span {
     display: block;
@@ -353,9 +360,9 @@ a.chann {
 .otherslider {
     background-color: black;
 }
-.otherslider .carousel .item img {
+.otherslider .carousel .item img, .otherslider .carousel .item iframe {
     margin-top: 10px;
-    min-height: 321px;
+    height: 321px;
     width: 100%;
 }
 a.chann {
@@ -405,6 +412,7 @@ a.chann {
 }
 .otherslider .carousel-indicators li img {
     width: 100%;
+    height: 100px;
 }
 .otherslider .carousel-indicators li h6 {
     font-size: 11px;
@@ -534,6 +542,9 @@ footer {
 }
 .topicimg {
     padding-top: 15px;
+}
+.topicimg img {
+    width: 100%;
 }
 .topichead {
     text-align: center;

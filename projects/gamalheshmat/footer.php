@@ -3,9 +3,9 @@
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="upfootercont">
-				<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
 			</div><!-- upfootercont -->
 		</div><!-- col-xs-12 -->
 		<div class="col-xs-12">

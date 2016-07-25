@@ -29,7 +29,7 @@
 
 
 
-<div class="container-fluid news">
+<div class="container news">
   <div class="row">
 
   	<div class="col-xs-12">
@@ -107,7 +107,7 @@
 
 
 
-<div class="container-fluid barlman">
+<div class="container barlman">
   <div class="row">
     <div class="col-sm-4">
       <div class="barlmanimg">
@@ -195,22 +195,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner col-xs-12" role="listbox">
                     <div class="item active">
-                        <img src="img/headimg.jpg" class="img-responsive">
-                         <div class="carousel-caption">
-                             <h3>بسم الله الرحمن الرحيم وبه نستعين والصلاة والسلم على اشرف المرسلين</h3>
-                         </div>
+                        <iframe src="https://www.youtube.com/embed/7Hch1u_0Tlk" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="item">
                         <img src="img/headimg.jpg" class="img-responsive">
-                         <div class="carousel-caption">
-                             <h3>بسم الله الرحمن الرحيم وبه نستعين والصلاة والسلم على اشرف المرسلين</h3>
-                         </div>
                     </div>
                     <div class="item">
                         <img src="img/headimg.jpg" class="img-responsive">
-                         <div class="carousel-caption">
-                             <h3>بسم الله الرحمن الرحيم وبه نستعين والصلاة والسلم على اشرف المرسلين</h3>
-                         </div>
                     </div>
                 </div>
 
