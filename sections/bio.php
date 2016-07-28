@@ -20,7 +20,7 @@
 
 	<!--BIO PARAGRAPH-->
 	<p>	
-		AbdElrahman Ahmad, 20 years old, Egyptian, student at Madina Academy, Systems and information management department, 4 years experience in user interfaces development "UI Development", Lover to the field of information technology "IT", have small experience with Web penetration testing in addition to that I have a lot of basics of programming, this is all what you need to know about me .
+		AbdElrahman Ahmad, 20 years old, Egyptian, student at Madina Academy, Systems and information management department, 2 years experience in user interfaces development "UI Development", Lover to the field of information technology "IT", have small experience with Web penetration testing in addition to that I have a lot of basics of programming, this is all what you need to know about me .
 		
 		<!--////////////////////////////////////////////////////////////////////////////////////////-->
 		<!--IMAGES BELOW ARE HIDDEN AND WILL ONLY APPEAR IN THE GALLERY LINKED TO IN ABOVE PARAGRAPH -->
