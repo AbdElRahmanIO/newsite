@@ -179,7 +179,7 @@ ul.projitems li {
     margin-bottom: 30px;
 	transition: ease 0.5s;
 	position: relative;
-    min-height: 200px;
+    min-height: 150px;
 }
 .projitem:hover {
 	border-radius: 50%;
