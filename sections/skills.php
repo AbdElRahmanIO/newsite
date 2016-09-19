@@ -12,6 +12,8 @@
 	<li id="skill6" class="s90"><span>Bootstrap</span></li>
 	<li id="skill7" class="s60"><span>Javascript DOM</span></li>
 	<li id="skill8" class="s60"><span>jQuery</span></li>
+	<li id="skill8" class="s80"><span>Git</span></li>
+	<li id="skill8" class="s50"><span>Linux</span></li>
 <!-- 	<li id="skill9" class="s40"><span><del>Underwater Basket Weaving</del></span></li>
  --></ul><!--end skills-->
 
