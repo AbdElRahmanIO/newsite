@@ -4,7 +4,7 @@
 	<h2>UI/UX Developer</h2>
 	<h2>AbdElRahman.UI@gmail.com</h2>
 	<h2>(+2)01146410212</h2>
-	
+
 	<!--SOCIAL ICONS-->
 	<div id="socialIcons">
 		<a class="socialIcon" target="_blank" id="facebookIcon" href="http://fb.com/AbdElRahman.IO.page/"></a>
@@ -19,9 +19,9 @@
 	</div><!--end socialIcons-->
 
 	<!--BIO PARAGRAPH-->
-	<p>	
-		AbdElrahman Ahmad, 20 years old, Egyptian, student at Madina Academy, Systems and information management department, 2 years experience in user interfaces development "UI Development", Lover to the field of information technology "IT", have small experience with Web penetration testing in addition to that I have a lot of basics of programming, this is all what you need to know about me .
-		
+	<p>
+		AbdElrahman Ahmad, 21 years old, Egyptian, student at Madina Academy, Systems and information management department, 2 years experience in user interfaces development "UI Development", Lover to the field of information technology "IT", have small experience with Web penetration testing in addition to that I have a lot of basics of programming, this is all what you need to know about me .
+
 		<!--////////////////////////////////////////////////////////////////////////////////////////-->
 		<!--IMAGES BELOW ARE HIDDEN AND WILL ONLY APPEAR IN THE GALLERY LINKED TO IN ABOVE PARAGRAPH -->
 		<!--////////////////////////////////////////////////////////////////////////////////////////-->
@@ -37,7 +37,7 @@
 		<a title="Selected Work" class="selectedWork" data-rel="prettyPhoto[pp_gal]" href="images/portfolio/chameleon.jpg"></a>
 		<a title="Selected Work" class="selectedWork" data-rel="prettyPhoto[pp_gal]" href="images/portfolio/maitred.jpg"></a>
 	</p>
-	
+
 </div><!--end bio-->
 
 <div class="clear"></div>
