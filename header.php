@@ -10,6 +10,14 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<style>
+.h4, h4 {
+  font-size: 15px;
+}
+h3 {
+  font-size: 16px;
+}
+</style>
 </head>
 <body>
 
@@ -17,7 +25,7 @@
 <div id="sticker"></div>
 
 <div id="wrapper">
-<?php 
+<?php
 //THE FOLLOWING SECTIONS ARE
 //BROKEN UP INTO SEPARATE FILES
 //YOU CAN REARRANGE THEM HERE

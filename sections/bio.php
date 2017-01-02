@@ -1,7 +1,7 @@
 <h2 id="titleName" class="sectionHead">AbdElRahman Ahmad</h2>
 
 <div id="bio">
-	<h2>UI/UX Developer</h2>
+	<h2>UI Developer</h2>
 	<h2>AbdElRahman.UI@gmail.com</h2>
 	<h2>(+2)01146410212</h2>
 
@@ -20,7 +20,7 @@
 
 	<!--BIO PARAGRAPH-->
 	<p>
-		AbdElrahman Ahmad, 21 years old, Egyptian, student at Madina Academy, Systems and information management department, 2 years experience in user interfaces development "UI Development", Lover to the field of information technology "IT", have small experience with Web penetration testing in addition to that I have a lot of basics of programming, this is all what you need to know about me .
+		AbdElrahman Ahmad, 21 years old, Egyptian, student at Madina Academy, Systems and information management department, 3 years experience in user interfaces development "UI Development", Lover to the field of information technology "IT", have small experience with Web penetration testing in addition to that I have a lot of basics of programming, this is all what you need to know about me .
 
 		<!--////////////////////////////////////////////////////////////////////////////////////////-->
 		<!--IMAGES BELOW ARE HIDDEN AND WILL ONLY APPEAR IN THE GALLERY LINKED TO IN ABOVE PARAGRAPH -->
