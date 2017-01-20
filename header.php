@@ -1,33 +1,52 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>AbdElRahman Ahmad</title>
-<meta name="viewport" content="initial-scale=1.0,width=device-width" />
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
-<style>
-.h4, h4 {
-  font-size: 15px;
-}
-h3 {
-  font-size: 16px;
-}
-</style>
-</head>
-<body>
+<!DOCTYPE html>
+<!--
+***************************************
+***************************************
+	By:-	AbdElRahman Ahmad
+  			fb.com/DrMagnet0
+				twitter.com/DrMagnet0
+				linkedin.com/in/DrMagnet0
+				instagram.com/DrMagnet0
+***************************************
+***************************************
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Port</title>
 
-<!--STICKER-->
-<div id="sticker"></div>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-rtl.min.css"> -->
 
-<div id="wrapper">
-<?php
-//THE FOLLOWING SECTIONS ARE
-//BROKEN UP INTO SEPARATE FILES
-//YOU CAN REARRANGE THEM HERE
-include('sections/bio.php');
-?>
+    <!--font-awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <!--myfiles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/querys.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+<div class="container-fluid logo">
+	<div class="row">
+		<div class="col-xs-12">
+			<img src="img/logo.png" alt="">
+		</div><!-- col-xs-12 -->
+	</div><!-- row -->
+</div><!-- container-fluid logo -->
