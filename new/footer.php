@@ -4,7 +4,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12">
-				<a>thanks with my heart for visiting my site</a>
+				<a>From the bottom of my heart i thank you for visiting my site</a>
 			</div><!-- row -->
 	</div><!-- container-fluid downfooter -->
 </footer><!-- #footer -->
