@@ -1,0 +1,47 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* font */
+@font-face{font-family:'DroidKufi-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'DroidKufi-Regular'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* font */
+
+
+body {
+    font-family: 'DroidKufi-Regular';
+    padding-top: 50px;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+    color: red;
+}
+h2 {
+    font-size: 25px;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('../img/egy.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+footer {
+    margin: 50px 0;
+}
