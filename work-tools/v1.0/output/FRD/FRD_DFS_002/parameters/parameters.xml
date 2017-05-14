@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Sequence Id="FRD_DFS_002" Orientation="Landscape" xmlns="urn:param-schema">
+  <Links>
+    <Link SequenceId="FRD_DFS_001" />
+     <Link SequenceId="FRD_DFS_004" />
+     <Link SequenceId="FRD_DFS_006" />
+     <Link SequenceId="FRD_DFS_008" />
+     <Link SequenceId="FRD_DFS_010" />
+     <Link SequenceId="FRD_DFS_013" />
+     <Link SequenceId="FRD_DFS_015" />
+     <Link SequenceId="FRD_DFS_017" />
+     <Link SequenceId="FRD_DFS_019" />
+     <Link SequenceId="FRD_DFS_020" />
+    
+  </Links>
+</Sequence>

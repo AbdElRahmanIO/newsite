@@ -1,0 +1,38 @@
+/* Presentation CSS */
+.mainContent {
+	top: 100px;
+	left: 80px;
+	width: 864px;
+	position: absolute;
+	border: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+	z-index:3;
+}
+.mainContent .pageTitle {
+	font-size: 20px!important;
+	font-family: 'HelveticaLTStdCond'!important;
+	font-weight: normal!important;
+	position: absolute;
+	color: white;
+}
+p {
+	margin-bottom:25px;
+}
+.noSwipe{
+	position: absolute;
+	z-index: 3;
+	top: 150px;
+	left: 0px;
+	width: 1024px;
+	height: 418px;
+	background-color: #DF1818;
+	opacity:.20;
+}
+button {
+	padding: 10px;
+}
+.bodyText {
+	margin-top:50px;
+	font-size: 16px;
+}

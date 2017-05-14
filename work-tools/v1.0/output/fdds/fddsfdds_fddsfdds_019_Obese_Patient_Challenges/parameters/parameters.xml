@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<Sequence Id="fddsfdds_fddsfdds_019_Obese_Patient_Challenges" Orientation="Landscape" xmlns="urn:param-schema">
+  <Links>
+    <Link SequenceId="fddsfdds_fddsfdds_001_Home" />
+     <Link SequenceId="fddsfdds_fddsfdds_004_Respiratory_Risk" />
+     <Link SequenceId="fddsfdds_fddsfdds_005_Risk_Reduction_Strategy" />
+     <Link SequenceId="fddsfdds_fddsfdds_006_Less_Irritating_Agent" />
+     <Link SequenceId="fddsfdds_fddsfdds_008_Considering_Respiratory_Aspects" />
+     <Link SequenceId="fddsfdds_fddsfdds_010_Cardiovascular_Risk" />
+     <Link SequenceId="fddsfdds_fddsfdds_011_Hemodynamic_Stability" />
+     <Link SequenceId="fddsfdds_fddsfdds_012_Cardiac_Functions_In_Elderly" />
+     <Link SequenceId="fddsfdds_fddsfdds_014_Elimination_OfInhaled_Anesthetics" />
+     <Link SequenceId="fddsfdds_fddsfdds_016_Considering_Cardiovascular_Aspects" />
+     <Link SequenceId="fddsfdds_fddsfdds_018_Obese_Patient" />
+     <Link SequenceId="fddsfdds_fddsfdds_020_Emergence_Time" />
+     <Link SequenceId="fddsfdds_fddsfdds_022_Consider_Obesity" />
+     <Link SequenceId="fddsfdds_fddsfdds_024_Pediatric_Patient" />
+     <Link SequenceId="fddsfdds_fddsfdds_025_Sevoflurane By_Your_Side" />
+     <Link SequenceId="fddsfdds_fddsfdds_026_PI" />
+    
+  </Links>
+</Sequence>

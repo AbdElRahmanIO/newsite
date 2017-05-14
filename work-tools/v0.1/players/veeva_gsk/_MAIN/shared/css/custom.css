@@ -1,0 +1,161 @@
+/* Custom CSS */
+
+/* Custom AbdElRahman */
+.noSwipe{
+	position: absolute;
+	z-index: auto;
+	top: auto;
+	left: auto;
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	opacity:1;
+}
+#logo {
+	position: absolute;
+  left: 939px;
+  top: 61px;
+	width: 67px;
+	height: 57px;
+	background-size: auto;
+}
+.mainContent {
+	width: 1024px!important;
+	height: 100%;
+	top: 0!important;
+	left: 0!important;
+}
+.mainContent p {
+	font-family: 'HelveticaLTStdRoman';
+}
+.pageTitle {
+	left: 73px;
+	top: 52px;
+}
+.header {
+	width: 100%;
+	top: 0!important;
+	right: 0!important;
+}
+.navBottom div {
+	width: 53px;
+	height: 59px;
+}
+#home, #menu, #pi, #references {
+	background-size: inherit;
+}
+.navBottom {
+  left: 73px;
+  top: 696px;
+	bottom: auto;
+	display: block!important;
+}
+.activeNav {
+	opacity: 1;
+	filter: grayscale(100%);
+}
+.code {
+	position: absolute;
+  transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+	left: 902px;
+	top: 503px;
+}
+.code p {
+	margin: 0;
+	font-size: 15px;
+	display: none;
+}
+.refall {
+	background-image: url(../media/images/ref.png);
+	width: 758px;
+	min-height: 330px;
+	left: 133px;
+	top: 219px;
+	position: absolute;
+	margin: 0 auto;
+}
+.refall p {
+	padding: 35px;
+	color: #00539e;
+  font-size: 15px;
+}
+/* Custom AbdElRahman */
+
+.topNav {
+	top: 39px;
+	left: 174px;
+	width: 864px;
+	position: absolute;
+	border: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+	font: normal 16px 'HelveticaLight';
+	z-index: 999
+}
+
+.topNav #mtgskClose {
+	position: absolute;
+	background: url('..//media/icons/icon_close.png');
+	background-repeat: no-repeat;
+	background-size: 39px 35px;
+	padding: 15px;
+	width: 39px;
+	height: 35px;
+}
+
+.topNav #referencesPage {
+	position: absolute;
+	background: url('..//media/icons/icon_referencespage.png');
+	background-repeat: no-repeat;
+	background-size: 39px 35px;
+	padding: 15px;
+	margin-left: 50px;
+	width: 39px;
+	height: 35px;
+}
+
+.topNav #referencesAll {
+	position: absolute;
+	background: url('..//media/icons/icon_referencesall.png');
+	background-repeat: no-repeat;
+	background-size: 39px 35px;
+	padding: 15px;
+	margin-left: 100px;
+	width: 39px;
+	height: 35px;
+}
+
+.zincCode {
+	bottom: 65px;
+	left: 25px;
+	position: absolute;
+	border: 0;
+	font: normal 12px 'HelveticaLight';
+	color: #888888;
+	z-index: 10;
+}
+
+.references {
+	padding-left: 10px;
+
+}
+
+#referenceList li {
+	font-size: 16px;
+	margin-top:10px;
+	margin-left: 22px;
+}
+
+#referenceActive {
+	color: #000000;
+}
+
+#referenceInactive {
+	color: #D7D7D7;
+}
+
+#referenceList li em {
+	font-style:italic;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-tap-highlight-color:rgba(255,0,0,0);
+  -webkit-touch-callout: none;
+}
+html, body, p, ul, li, h1, h2, h3, h4, h5, h6, input, table, tr, td, th, em, strong, pre, code, form, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration:none;
+	outline:none;
+	cursor:pointer;
+}
+ol, ul {
+  list-style: none;
+}
+#Main_Container{
+  width:1024px;
+  height:768px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image:url(../images/bg.jpg);
+  background-repeat:no-repeat;
+}

@@ -1,0 +1,17 @@
+body {
+  font-family: 'Cairo', sans-serif;
+}
+.index {
+  text-align: center;
+}
+.index a {
+  font-size: 60pt;
+  color: red;
+  text-decoration: none;
+}
+.panel {
+  margin-top: 50px;
+}
+#inputimages, #inputimagesthumbs, .panel-title {
+  text-align: left;
+}

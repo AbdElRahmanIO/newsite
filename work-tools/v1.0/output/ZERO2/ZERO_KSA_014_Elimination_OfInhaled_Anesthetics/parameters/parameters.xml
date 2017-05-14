@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<Sequence Id="ZERO_KSA_014_Elimination_OfInhaled_Anesthetics" Orientation="Landscape" xmlns="urn:param-schema">
+  <Links>
+    <Link SequenceId="ZERO_KSA_001_Home" />
+     <Link SequenceId="ZERO_KSA_004_Respiratory_Risk" />
+     <Link SequenceId="ZERO_KSA_005_Risk_Reduction_Strategy" />
+     <Link SequenceId="ZERO_KSA_006_Less_Irritating_Agent" />
+     <Link SequenceId="ZERO_KSA_008_Considering_Respiratory_Aspects" />
+     <Link SequenceId="ZERO_KSA_010_Cardiovascular_Risk" />
+     <Link SequenceId="ZERO_KSA_011_Hemodynamic_Stability" />
+     <Link SequenceId="ZERO_KSA_012_Cardiac_Functions_In_Elderly" />
+     <Link SequenceId="ZERO_KSA_016_Considering_Cardiovascular_Aspects" />
+     <Link SequenceId="ZERO_KSA_018_Obese_Patient" />
+     <Link SequenceId="ZERO_KSA_019_Obese_Patient_Challenges" />
+     <Link SequenceId="ZERO_KSA_020_Emergence_Time" />
+     <Link SequenceId="ZERO_KSA_022_Consider_Obesity" />
+     <Link SequenceId="ZERO_KSA_024_Pediatric_Patient" />
+     <Link SequenceId="ZERO_KSA_025_Sevoflurane By_Your_Side" />
+     <Link SequenceId="ZERO_KSA_026_PI" />
+    
+  </Links>
+</Sequence>

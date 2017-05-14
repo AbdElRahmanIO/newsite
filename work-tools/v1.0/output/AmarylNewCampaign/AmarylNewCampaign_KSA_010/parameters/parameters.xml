@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Sequence Id="AmarylNewCampaign_KSA_010" Orientation="Landscape" xmlns="urn:param-schema">
+  <Links>
+    <Link SequenceId="AmarylNewCampaign_KSA_001" />
+     <Link SequenceId="AmarylNewCampaign_KSA_004" />
+     <Link SequenceId="AmarylNewCampaign_KSA_006" />
+     <Link SequenceId="AmarylNewCampaign_KSA_014" />
+     <Link SequenceId="AmarylNewCampaign_KSA_017" />
+    
+  </Links>
+</Sequence>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Sequence Id="PCSK9_KSA_001" Orientation="Landscape" xmlns="urn:param-schema">
+  <Links>
+    <Link SequenceId="PCSK9_KSA_002" />
+    <Link SequenceId="PCSK9_KSA_003" />
+    <Link SequenceId="PCSK9_KSA_004" />
+    <Link SequenceId="PCSK9_KSA_005" />
+    <Link SequenceId="PCSK9_KSA_006" />
+    <Link SequenceId="PCSK9_KSA_007" />
+    <Link SequenceId="PCSK9_KSA_008" />
+    <Link SequenceId="PCSK9_KSA_009" />
+    <Link SequenceId="PCSK9_KSA_010" />
+
+  </Links>
+</Sequence>
