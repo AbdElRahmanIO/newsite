@@ -12,10 +12,16 @@ class HomeController extends Controller
 
   public function index()
   {
+    $users = $this->load->model('users');
+    pre($users->get(2));
     // $users = $this->db->select('*')->from('users')->orderBy('id', 'DESC')->fetch();
     // $users = $this->db->select('*')->from('users')->orderBy('id')->fetch();
-    $userss = $this->db->select('*')->from('users')->orderBy('id', 'DESC')->fetchAll();
-    pre($userss);
+    // $userss = $this->db->select('*')->from('users')->where('id > ? AND id < ?', 1, 4)->orderBy('id', 'DESC')->fetchAll();
+    //$this->db->where('id > ?', 2)->delete('users');
+    //pre($userss);
+    // pre($this->db->where('id != ?', 2)->fetchAll('users'));
+    // echo $this->db->rows();
+    // pre($this->db->fetchAll('users'));
     // $this->db>select('name,email');
     // $this->db->data('name', 'abdo ahmad')
     //         //  ->where('id = ?', 1)

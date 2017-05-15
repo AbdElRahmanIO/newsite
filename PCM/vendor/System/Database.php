@@ -29,6 +29,8 @@ class Database
 
   private $offset;
 
+  private $rows = 0;
+
   private $joins = [];
 
   private $orderBy = [];
@@ -107,7 +109,8 @@ class Database
       $this->table($table);
     }
     $sql = $this->fetchStatement();
-    $result = $this->query($sql)->fetch();
+    $result = $this->query($sql, $this->bindings)->fetch();
+    $this->reset();
     return $result;
   }
 
@@ -117,8 +120,16 @@ class Database
       $this->table($table);
     }
     $sql = $this->fetchStatement();
-    $results = $this->query($sql)->fetchAll();
+    $query = $this->query($sql, $this->bindings);
+    $results = $query->fetchAll();
+    $this->rows = $query->rowCount();
+    $this->reset();
     return $results;
+  }
+
+  public function rows()
+  {
+    return $this->rows;
   }
 
   private function fetchStatement()
@@ -134,7 +145,7 @@ class Database
       $sql .= implode(' ', $this->joins);
     }
     if ($this->wheres) {
-      $sql .= ' WHERE ' . implode(' ', $this->wheres);
+      $sql .= ' WHERE ' . implode(' ', $this->wheres) . ' ';
     }
     if ($this->limit) {
       $sql .= ' LIMIT ' . $this->limit;
@@ -143,7 +154,7 @@ class Database
       $sql .= ' OFFSET ' . $this->offset;
     }
     if ($this->orderBy) {
-      $sql .= 'ORDER BY ' . implode(' ', $this->orderBy);
+      $sql .= ' ORDER BY ' . implode(' ', $this->orderBy);
     }
     return $sql;
   }
@@ -176,6 +187,7 @@ class Database
     //echo $sql;
     $this->query($sql, $this->bindings);
     $this->lastId = $this->connection()->lastInsertId();
+    $this->reset();
     return $this;
   }
 
@@ -198,6 +210,7 @@ class Database
     //pre($this->bindings);
     $this->query($sql, $this->bindings);
     //$this->lastId = $this->connection()->lastInsertId();
+    $this->reset();
     return $this;
   }
 
@@ -218,6 +231,20 @@ class Database
     $sql = array_shift($bindings);
     $this->addToBindings($bindings);
     $this->wheres[] = $sql;
+    return $this;
+  }
+
+  public function delete($table = null)
+  {
+    if ($table) {
+      $this->table($table);
+    }
+    $sql = 'DELETE FROM ' . $this->table . ' ';
+    if ($this->wheres) {
+      $sql .= ' WHERE ' . implode(' ', $this->wheres);
+    }
+    $this->query($sql, $this->bindings);
+    $this->reset();
     return $this;
   }
 
@@ -259,6 +286,20 @@ class Database
     }else {
       $this->bindings[] = $value;
     }
+  }
+
+  private function reset()
+  {
+    //$this->rows = 0;
+    $this->limit = null;
+    $this->table = null;
+    $this->offset = null;
+    $this->data = [];
+    $this->joins = [];
+    $this->wheres = [];
+    $this->orderBy = [];
+    $this->selects = [];
+    $this->bindings = [];
   }
 
 }

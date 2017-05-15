@@ -61,24 +61,41 @@ class Loader
     return str_replace('/', '\\', $controller);
   }
 
+  /* Model */
+
   public function model($model)
   {
-    # code...
+    $model = $this->getModelName($model);
+    //echo $controller;
+    if (! $this->hasModel($model)) {
+      $this->addModel($model);
+    }
+    return $this->getModel($model);
   }
 
   private function hasModel($model)
   {
-    # code...
+    return array_key_exists($model, $this->models);
   }
 
   private function addModel($model)
   {
-    # code...
+    //echo 1;
+    $object = new $model($this->app);
+    $this->models[$model] = $object;
   }
 
   private function getModel($model)
   {
-    # code...
+    return $this->models[$model];
+  }
+
+  private function getModelName($model)
+  {
+    $model .= 'Model';
+    $model = 'App\\Models\\' . $model;
+    //return $controller;
+    return str_replace('/', '\\', $model);
   }
 
 }
