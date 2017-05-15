@@ -64,6 +64,9 @@ section {
 aside {
   padding: 50px 0;
 }
+.margin0auto {
+  margin: 0 auto;
+}
 .no-padding {
   padding: 0;
 }
