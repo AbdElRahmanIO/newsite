@@ -1,5 +1,7 @@
 <?php
 
+use System\Application;
+
 if (! function_exists('pre')){
 
     function pre($var){
@@ -24,5 +26,29 @@ if (! function_exists('_e')) {
     return htmlspecialchars($value);
   }
 }
+
+if (! function_exists('assets')) {
+  function assets($path)
+  {
+    // global $app;
+    // return $app->url->link('public/' . $path);
+    $app = Application::getInstance();
+    return $app->url->link('public/' . $path);
+  }
+}
+
+if (! function_exists('url')) {
+  function url($path)
+  {
+    // global $app;
+    // return $app->url->link('public/' . $path);
+    $app = Application::getInstance();
+    return $app->url->link($path);
+  }
+}
+
+
+
+
 
 ?>

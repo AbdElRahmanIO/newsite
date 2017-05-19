@@ -39,6 +39,7 @@ class Route {
         return [$controller, $method, $arguments];
       }
     }
+    return $this->app->url->redirectTo($this->notFound);
   }
 
   private function isMatching($pattern)

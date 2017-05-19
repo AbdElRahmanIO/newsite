@@ -12,8 +12,12 @@ class HomeController extends Controller
 
   public function index()
   {
-    $users = $this->load->model('users');
-    pre($users->get(2));
+    echo assets('images/logo.png');
+    // echo $this->url->link('/home');
+    // echo $this->url->link('/project/20');
+    // echo $this->url->redirectTo('/project/20');
+    // $users = $this->load->model('users');
+    // pre($users->get(2));
     // $users = $this->db->select('*')->from('users')->orderBy('id', 'DESC')->fetch();
     // $users = $this->db->select('*')->from('users')->orderBy('id')->fetch();
     // $userss = $this->db->select('*')->from('users')->where('id > ? AND id < ?', 1, 4)->orderBy('id', 'DESC')->fetchAll();

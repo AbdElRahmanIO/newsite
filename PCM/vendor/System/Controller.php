@@ -7,6 +7,8 @@ abstract class controller
 
   protected $app;
 
+  protected $errors = [];
+
   public function __construct(application $app)
   {
     $this->app = $app;

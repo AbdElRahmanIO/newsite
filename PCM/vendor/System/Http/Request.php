@@ -21,7 +21,7 @@ class Request {
     //echo $requestUri;
     //$requestUri = preg_replace('#^' . $script . '#', '', $requestUri);
     //echo $requestUri;
-    $this->url = preg_replace('#^' . $script . '#', '', $requestUri);
+    $this->url = rtrim(preg_replace('#^' . $script . '#', '', $requestUri), '/');
     //echo $this->url;
     //pre($_SERVER);
     $this->baseUrl = $this->server('REQUEST_SCHEME') . '://' . $this->server('HTTP_HOST') . $script . '/';

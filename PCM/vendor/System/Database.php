@@ -183,7 +183,7 @@ class Database
       $this->table($table);
     }
     $sql = 'INSERT INTO ' . $this->table . ' SET ';
-    $sql = $this->setFields();
+    $sql .= $this->setFields();
     //echo $sql;
     $this->query($sql, $this->bindings);
     $this->lastId = $this->connection()->lastInsertId();
