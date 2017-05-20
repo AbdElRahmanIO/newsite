@@ -27,13 +27,16 @@
   <body>
 
     <div class="wrapper">
-      <form class="form-signin" action="<?php echo url('/admin/login/submit') ?>" method="post" id="loginForm">
-        <?php if ($errors) {
-          // echo '<div class="alert alert-danger">';
-          // echo implode('<br>', $errors);
-          // echo '</div>';
-        } ?>
-        <h2 class="form-signin-heading">Please login</h2>
+      <form class="form-signin" action="<?php echo url('/admin/login/submit') ?>" method="POST" id="loginForm">
+        <?php
+        // if ($errors) {
+        //   echo '<div class="" id="loginResult">';
+        //   echo implode('<br>', $errors);
+        //   echo '</div>';
+        // }
+        ?>
+        <h2 class="form-signin-heading text-center">Login To Start =)</h2>
+        <div id="loginResult"></div>
         <input type="email" class="form-control" name="email" placeholder="Email Address" required autofocus="" />
         <input type="password" class="form-control" name="password" placeholder="Password" required/>
         <label class="checkbox">
@@ -49,6 +52,7 @@
     <script src="<?php echo assets('admin/js/bootstrap/bootstrap.min.js') ?>"></script>
     <script type="text/javascript">
       $(function() {
+        loginResult = $('#loginResult');
         var flag = false;
         $('#loginForm').on('submit', function(e) {
           e.preventDefault();
@@ -67,9 +71,22 @@
             beforeSend: function() {
               flag = true;
               $('button').attr('disabled', true);
+              loginResult.removeClass().addClass('alert alert-info').html('logging........');
             },
-            success: function(result) {
-
+            success: function(results) {
+              var data = $.parseJSON(results);
+              if (data['errors']) {
+                loginResult.removeClass().addClass('alert alert-danger').html(data['errors']);
+                $('button').removeAttr('disabled');
+                flag = false;
+              }else if (data['success']) {
+                loginResult.removeClass().addClass('alert alert-success').html(data['success']);
+                if (data['redirect']) {
+                  setTimeout(function() {
+                    window.location.href = data['redirect'];
+                  }, 1500)
+                }
+              }
             },
 
           });

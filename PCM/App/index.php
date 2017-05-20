@@ -14,6 +14,11 @@ $app->route->add('/admin/login', 'Admin/Login');
 $app->route->add('/admin/login/submit', 'Admin/Login@submit', 'POST');
 
 
+$app->share('adminLayout', function($app){
+  return $app->load->Controller('Admin/Common/Layout');
+});
+
+
 $app->route->add('/admin', 'Admin/Dashboard');
 $app->route->add('/admin/dashboard', 'Admin/Dashboard');
 

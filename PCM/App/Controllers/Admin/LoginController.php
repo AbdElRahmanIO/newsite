@@ -17,7 +17,7 @@ class LoginController extends Controller
     //pre($_COOKIE);
     $loginModel = $this->load->model('Login');
     if ($loginModel->isLogged()) {
-      //return $this->url->redirectTo('/admin');
+      return $this->url->redirectTo('/admin');
     }
     $data['errors'] = $this->errors;
     return $this->view->render('admin/users/login', $data);
@@ -45,11 +45,18 @@ class LoginController extends Controller
       }else {
         $this->session->set('login', $loggedInUser->code);
       }
-      return $this->url->redirectTo('/admin');
+      // return $this->url->redirectTo('/admin');
+      $json = [];
+      $json['success'] = 'Welcome Back <b style="color:black;">' . $loggedInUser->name . '</b> =)';
+      $json['redirect'] = $this->url->link('/admin');
+      return $this->json($json);
       // /pre($loginModel->user());
     }else {
       // pre($this->errors);
-      return $this->index();
+      // return $this->index();
+      $json = [];
+      $json['errors'] = implode('<br>', $this->errors);
+      return $this->json($json);
     }
   }
 

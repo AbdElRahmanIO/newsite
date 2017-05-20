@@ -14,6 +14,11 @@ abstract class controller
     $this->app = $app;
   }
 
+  public function json($data)
+  {
+    return json_encode($data);
+  }
+
   public function __get($key)
   {
     return $this->app->get($key);
