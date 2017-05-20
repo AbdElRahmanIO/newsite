@@ -1,0 +1,49 @@
+/*
+Theme Name: Globals - Material and Bootstrap HTML template
+Module : Hosting
+Description: Revolution silder custom styles are defined in this class
+Author: Jyostna
+Author URI: http://themeforest.net/user/jyostna
+Version: 1.0 
+-------------------------------------------- *//*
+TABLE OF CONTENT
+-------------------------------------------------
+1- REVOLUTION SLIDER STYLES
+
+---------------------------------------------- */
+
+/*========================== REVOLUTION SLIDER STYLES =======================*/
+
+.slotholder{
+   height: 86.2% !important; 
+}
+.grey_regular_18{
+    font-size: 18px !important;
+}
+@media screen and (min-width: 610px) {
+    .grey_regular_18{
+    font-size: 16px !important;
+}
+}
+.back-img{
+    height: 600px !important;
+}
+.largeredbtn{
+    background: #A3AF2C !important;
+    border-radius: 28px !important;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+    padding: 12% 30.8%!important;
+    color: #ffffff !important;
+}
+.largeredbtn:hover{
+    background:#00BFF3 !important;
+}
+.largeredbtn{
+    background:#000 !important;
+}
+.man-img{
+    width: 100% !important;
+    height: 100% !important;
+}
+/*========================== REVOLUTION SLIDER STYLES END =======================*/

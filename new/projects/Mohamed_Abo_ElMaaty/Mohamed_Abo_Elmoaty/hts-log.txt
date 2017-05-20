@@ -1,0 +1,70 @@
+HTTrack3.49-1+htsswf+htsjava launched on Thu, 11 May 2017 17:21:06 at http://dev.lorvent.com/globals/Hosting/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://dev.lorvent.com/globals/Hosting/ -O1 "C:\down\Mohamed_Abo_Elmoaty" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:27:03	Warning: 	Retry after error -4 (No data (connection closed)) at link dev.lorvent.com/globals/Hosting/js/index.js (from dev.lorvent.com/globals/Hosting/)
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/glyphicons-halflings-regular.eot
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/glyphicons-halflings-regular.eot?
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/glyphicons-halflings-regular.woff2
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/glyphicons-halflings-regular.woff
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/glyphicons-halflings-regular.ttf
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftRegular.woff2
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftRegular.woff
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftMedium.woff2
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftMedium.woff
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftBold.woff2
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftBold.woff
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftItalic.woff2
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/RobotoDraftItalic.woff
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/Material-Design-Icons.eot?3ocs8m
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/Material-Design-Icons.eot?
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/Material-Design-Icons.woff?3ocs8m
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/Material-Design-Icons.ttf?3ocs8m
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/fontawesome-webfont.eot?v=4.4.0
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/fontawesome-webfont.eot?
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/fontawesome-webfont.woff2?v=4.4.0
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/fontawesome-webfont.woff?v=4.4.0
+17:27:04	Warning: 	File not parsed, looks like binary: dev.lorvent.com/globals/Hosting/fonts/fontawesome-webfont.ttf?v=4.4.0
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/owl-carousel/grabbing.png (from dev.lorvent.com/globals/Hosting/css/owl-carousel/owl.carousel.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/owl-carousel/AjaxLoader.gif (from dev.lorvent.com/globals/Hosting/css/owl-carousel/owl.theme.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/images/gradient/g30.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/images/gradient/g40.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/shadow1.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/shadow2.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/shadow3.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/gridtile.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/gridtile_white.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/gridtile_3x3.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/gridtile_3x3_white.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/boxed_bgtile.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/navigdots_bgtile.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/bullet.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/bullets.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/bullets2.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/bullet_boxed.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/navigdots.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/large_left.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/large_right.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/small_left.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/small_right.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/arrow_left.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/arrow_right.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/small_left_boxed.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/small_right_boxed.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/arrowleft.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/arrowright.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/arrow_left2.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/arrow_right2.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/coloredbg.png (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/assets/loader.gif (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/font/revicons.eot?5510888 (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/font/revicons.woff?5510888 (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/font/revicons.ttf?5510888 (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+17:27:05	Error: 	"Not Found" (404) at link dev.lorvent.com/globals/Hosting/css/revolution-slider/font/revicons.svg?5510888 (from dev.lorvent.com/globals/Hosting/css/revolution-slider/css/settings.css)
+
+HTTrack Website Copier/3.49-1 mirror complete in 14 minutes 7 seconds : 250 links scanned, 212 files written (23366191 bytes overall) [20617137 bytes received at 24341 bytes/sec], 3348545 bytes transferred using HTTP compression in 81 files, ratio 15%, 5.8 requests per connection
+(36 errors, 23 warnings, 0 messages)
