@@ -17,6 +17,18 @@ class CategoriesController extends Controller
     return $this->adminLayout->render($view);
   }
 
+  public function add()
+  {
+    $data['action'] = $this->url->link('/admin/categories/submit');
+    return $this->view->render('admin/categories/form', $data);
+  }
+
+  public function submit($value='')
+  {
+    $json['success'] = 'Done';
+    return $this->json($json);
+  }
+
 }
 
 

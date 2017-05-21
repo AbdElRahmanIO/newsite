@@ -32,7 +32,7 @@ class Route {
   public function getProperRoute()
   {
     foreach ($this->routes as $route) {
-      if ($this->isMatching($route['pattern'])) {
+      if ($this->isMatching($route['pattern']) AND $this->isMatchingRequestMethod($route['method'])) {
         // /echo $route['pattern'];
         $arguments = $this->getArgumentsFrom($route['pattern']);
         list($controller, $method) = explode('@', $route['action']);
@@ -45,6 +45,11 @@ class Route {
   private function isMatching($pattern)
   {
     return preg_match($pattern, $this->app->request->url());
+  }
+
+  private function isMatchingRequestMethod($routeMethod)
+  {
+    return $routeMethod == $this->app->request->method();
   }
 
   private function getArgumentsFrom($pattern)

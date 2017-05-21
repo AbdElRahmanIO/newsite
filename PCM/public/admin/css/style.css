@@ -9,6 +9,9 @@ body {
 .page-header {
     margin-top: 0;
 }
+.center {
+  text-align: center;
+}
 .res {
     margin-bottom: 15px;
 }
