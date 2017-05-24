@@ -22,7 +22,7 @@ class Loader
   public function action($controller, $method, array $arguments)
   {
     $object = $this->controller($controller);
-    return call_user_func([$object, $method], $arguments);
+    return call_user_func_array([$object, $method], $arguments);
   }
 
   public function controller($controller)

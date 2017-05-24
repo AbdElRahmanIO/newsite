@@ -5,9 +5,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                      All Players
+                      Players
                       <a class="btn btn-primary pull-right open-popup" data-toggle="modal" data-modal-target="#addcat" data-target="<?php echo url('/admin/categories/add') ?>">Add New Player</a>
                     </h1>
+                    <?php if ($success) { ?>
+                      <div class="col-xs-12 alert alert-success"><?php echo $success; ?></div>
+                    <?php } ?>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -24,57 +27,35 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Category Name</th>
+                                        <th>Player Name</th>
                                         <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="odd gradeX">
-                                        <td>1</td>
-                                        <td>Veeva IRep CLM</td>
-                                        <td>Enabled</td>
-                                        <td class="text-center">
-                                          <button type="button" class="btn btn-primary">Edit</button>
-                                          <button type="button" class="btn btn-danger">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr class="even gradeC">
-                                        <td>2</td>
-                                        <td>Veeva IRep vault</td>
-                                        <td>Enabled</td>
-                                        <td class="text-center">
-                                          <button type="button" class="btn btn-primary">Edit</button>
-                                          <button type="button" class="btn btn-danger">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr class="odd gradeA">
-                                        <td>3</td>
-                                        <td>MI</td>
-                                        <td>Enabled</td>
-                                        <td class="text-center">
-                                          <button type="button" class="btn btn-primary">Edit</button>
-                                          <button type="button" class="btn btn-danger">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr class="even gradeA">
-                                        <td>4</td>
-                                        <td>ISales</td>
-                                        <td>Enabled</td>
-                                        <td class="text-center">
-                                          <button type="button" class="btn btn-primary">Edit</button>
-                                          <button type="button" class="btn btn-danger">Delete</button>
-                                        </td>
-                                    </tr>
-                                    <tr class="odd gradeA">
-                                        <td>5</td>
-                                        <td>ISaling</td>
-                                        <td>Enabled</td>
-                                        <td class="text-center">
-                                          <button type="button" class="btn btn-primary">Edit</button>
-                                          <button type="button" class="btn btn-danger">Delete</button>
-                                        </td>
-                                    </tr>
+                                  <?php
+                                    foreach ($categories as $category) { ?>
+                                      <tr class="odd gradeX">
+                                          <td><?php echo $category->id; ?></td>
+                                          <td><?php echo $category->name; ?></td>
+                                          <td><?php echo ucfirst($category->status); ?></td>
+                                          <td class="text-center">
+                                            <!-- <a href="<?php #echo url('admin/categories/edit/' . $category->id) ?>" class="btn btn-primary open-popup">
+                                              Edit
+                                              <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a> -->
+                                            <button type="button" data-target="<?php echo url('admin/categories/edit/' . $category->id) ?>" data-modal-target="#editcat-<?php echo $category->id; ?>" class="btn btn-primary open-popup">
+                                              Edit
+                                              <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </button>
+                                            <a href="<?php echo url('admin/categories/delete/' . $category->id) ?>" class="btn btn-danger">
+                                              Delete
+                                              <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                          </td>
+                                      </tr>
+                                    <?php }
+                                  ?>
                                 </tbody>
                             </table>
                             <!-- /.table-responsive -->

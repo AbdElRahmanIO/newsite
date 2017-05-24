@@ -147,6 +147,11 @@ class Validation
     return $this->errors;
   }
 
+  public function flattenMessages()
+  {
+    return implode('<br>', $this->errors);
+  }
+
   private function value($input)
   {
       return $this->app->request->post($input);

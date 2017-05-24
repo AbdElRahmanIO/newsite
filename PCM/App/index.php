@@ -7,8 +7,11 @@ $app = Application::getInstance();
 // //pre($app);
 //
 // $app->route->add('/', 'Home', 'POST');
+
+$app->route->add('/', 'Home');
 //
 // $app->route->add('/Projects/:text/:id', 'Projects/Project');
+
 
 $app->route->add('/admin/login', 'Admin/Login');
 $app->route->add('/admin/login/submit', 'Admin/Login@submit', 'POST');
@@ -55,7 +58,7 @@ $app->route->add('/admin/projects/comments/delete/:id', 'Admin/Comments@delete')
 $app->route->add('/admin/categories', 'Admin/Categories');
 $app->route->add('/admin/categories/add', 'Admin/Categories@add', 'POST');
 $app->route->add('/admin/categories/submit', 'Admin/Categories@submit', 'POST');
-$app->route->add('/admin/categories/edit/:id', 'Admin/Categories@edit');
+$app->route->add('/admin/categories/edit/:id', 'Admin/Categories@edit', 'POST');
 $app->route->add('/admin/categories/save/:id', 'Admin/Categories@save', 'POST');
 $app->route->add('/admin/categories/delete/:id', 'Admin/Categories@delete');
 

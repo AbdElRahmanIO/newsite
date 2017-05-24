@@ -8,6 +8,8 @@ class Request {
 
   private $baseUrl;
 
+  private $files = [];
+
   public function prepareUrl(){
     //pre($_SERVER);
     //echo $this->server('SCRIPT_NAME');
@@ -24,6 +26,9 @@ class Request {
     $this->url = rtrim(preg_replace('#^' . $script . '#', '', $requestUri), '/');
     //echo $this->url;
     //pre($_SERVER);
+    if (! $this->url) {
+      $this->url =  '/';
+    }
     $this->baseUrl = $this->server('REQUEST_SCHEME') . '://' . $this->server('HTTP_HOST') . $script . '/';
     //echo $this->baseUrl;
 
@@ -37,6 +42,16 @@ class Request {
   public function post($key, $default = null)
   {
     return array_get($_POST, $key, $default);
+  }
+
+  public function file($input)
+  {
+    if (isset($this->file[$input])) {
+      return $this->files[$input];
+    }
+    $uploadedFile = new UploadedFile($input);
+    $this->files[$input] = $uploadedFile;
+    return $this->files[$input];
   }
 
   public function server($key, $default = null)

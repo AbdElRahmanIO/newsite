@@ -31,6 +31,8 @@ class Route {
 
   public function getProperRoute()
   {
+    // echo $this->app->request->url();
+    // die();
     foreach ($this->routes as $route) {
       if ($this->isMatching($route['pattern']) AND $this->isMatchingRequestMethod($route['method'])) {
         // /echo $route['pattern'];

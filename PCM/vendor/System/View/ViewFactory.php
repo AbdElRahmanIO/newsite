@@ -19,6 +19,8 @@ class ViewFactory
 
   public function render($viewPath, array $data = [])
   {
+    // $view = new View($this->app->file, $viewPath, $data);
+    // return $view->getOutPut();
     return new View($this->app->file, $viewPath, $data);
   }
 
