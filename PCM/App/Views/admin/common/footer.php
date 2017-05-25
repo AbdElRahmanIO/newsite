@@ -34,6 +34,7 @@ $(document).ready(function() {
       btn = $(this);
       url = btn.data('target');
       modelTarget = btn.data('modal-target');
+      $(modelTarget).remove();
       $.ajax({
         url: url,
         type: 'POST',
@@ -87,6 +88,34 @@ $(document).ready(function() {
         processData: false,
         contentType: false,
       });
+    });
+
+
+    $('.delete').on('click', function(e) {
+      e.preventDefault();
+      button = $(this);
+      var c = confirm('Are You Sure ?');
+      if (c == true) {
+        $.ajax({
+          url: button.data('target'),
+          type: 'POST',
+          dataType: 'json',
+          beforeSend: function() {
+            $('#results').removeClass().addClass('col-xs-12 alert alert-info').html('please wait ...');
+          },
+          success: function(results) {
+            if (results.success) {
+              $('#results').removeClass().addClass('col-xs-12 alert alert-success').html('delete is done');
+              tr = button.parents('tr');
+              tr.fadeOut(function() {
+                tr.remove();
+              });
+            }
+          },
+        });
+      }else {
+        return false;
+      }
     });
 
 });

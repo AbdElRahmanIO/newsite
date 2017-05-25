@@ -19,7 +19,7 @@ class Loader
     $this->app = $app;
   }
 
-  public function action($controller, $method, array $arguments)
+  public function action($controller, $method, array $arguments = [])
   {
     $object = $this->controller($controller);
     return call_user_func_array([$object, $method], $arguments);

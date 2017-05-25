@@ -13,6 +13,11 @@ class Route {
     $this->app = $app;
   }
 
+  public function routes($value='')
+  {
+    return $this->routes;
+  }
+
   public function add($url, $action, $requestMethod = 'Get')
   {
     $route = [

@@ -97,8 +97,10 @@ class CategoriesController extends Controller
       return $this->url->redirectTo('/404');
     }
     $categoriesModel->delete($id);
-    $this->session->set('success', 'player has been Done');
-    return $this->url->redirectTo('/admin/categories');
+    // $this->session->set('success', 'player has been Done');
+    // return $this->url->redirectTo('/admin/categories');
+    $json['success'] = 'player has been deleted successfully';
+    return $this->json($json);
   }
 
   private function isValid()
